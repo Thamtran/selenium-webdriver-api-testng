@@ -18,10 +18,6 @@ public class Topic_01_CheckEnvironment {
 	@BeforeClass
 	public void beforeClass() {
 		driver = new FirefoxDriver();
-//		System.setProperty("webdriver.chrome.driver",".\\browserDrivers\\chromedriver.exe" );
-//		  driver =new ChromeDriver();
-//		  System.setProperty("webdriver.edge.driver",".\\browserDrivers\\msedgedriver.exe");
-//		  driver= new EdgeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("http://demo.guru99.com/v4/");
