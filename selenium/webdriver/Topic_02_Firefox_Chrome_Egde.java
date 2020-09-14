@@ -25,15 +25,15 @@ public class Topic_02_Firefox_Chrome_Egde {
   driver.get("https://www.facebook.com/");
   driver.quit();
  }
- @Test
- public void TC_03_Run_On_Edge_Chromium()
- // C1 Relative Path (đường dẫn tương đối)
-
- { System.setProperty("webdriver.edge.driver",".\\browserDrivers\\msedgedriver.exe");
- driver= new EdgeDriver();
- driver.get("https://www.facebook.com/");
- driver.quit();
- }
+// @Test
+// public void TC_03_Run_On_Edge_Chromium()
+// // C1 Relative Path (đường dẫn tương đối)
+//
+// { System.setProperty("webdriver.edge.driver",".\\browserDrivers\\msedgedriver.exe");
+// driver= new EdgeDriver();
+// driver.get("https://www.facebook.com/");
+// driver.quit();
+// }
  
  }
 	
